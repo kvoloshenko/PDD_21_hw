@@ -125,7 +125,7 @@ def set_keywords(keywords):
 def get_data(keywords):
     rez_data = []
     keywords_l = set_keywords(keywords)
-    print(type(keywords),f'keywords={keywords}')
+    # print(type(keywords),f'keywords={keywords}')
     i = 1
     iteration = 1
     for keywords in keywords_l:
