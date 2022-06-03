@@ -7,7 +7,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         print ('---Run fill_db_parser---')
-        skeys = 'NAME: (Python)'
+        skeys = 'NAME:(C#)'
         ad.set_keywords(skeys)
         result = ad.get_data(skeys)
         # print(type(result))
